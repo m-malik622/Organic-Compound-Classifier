@@ -206,5 +206,5 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
-#ir spectroscopy source files and other data files 
-./data/IR/
+#all data files should be in external sources ie: hugging face/kaggle
+data/
