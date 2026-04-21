@@ -205,3 +205,6 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+#all data files should be in external sources ie: hugging face/kaggle
+data/
