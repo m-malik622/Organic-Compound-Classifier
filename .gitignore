@@ -206,6 +206,20 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
+# Anaconda Environment
+.conda/
+envs/
+**/anaconda_projects/
+env/
+environment.yml  # Often ignored if managing env elsewhere
+
+# Python/Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+
 #all data files should be in external sources ie: hugging face/kaggle
 data/
 *.csv
