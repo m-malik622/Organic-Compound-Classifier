@@ -1,23 +1,15 @@
 # Organic-Compound-Classifier
 
-# layout 
-📓 notebooks/
-👉 everything you run
+# Usage
+* User interface for interactign with model in `main.ipynb`
+  * need to have model file `mlb_classes.pkl` and the `ir_bead_classifier.pth` in model folder 
+  * run `pip install -r requirements.txt`
+  * select run all in notebook
+  * upload jdx file and result of probability of model is produced
+    * sample files located in `Sample IR spectroscpoy data files` folder
+    * model for gas compounds so state field must be gas 
 
-🧠 models/
-👉 just the neural network definition
-
-📦 data/
-👉 never manually edited in Colab after preprocessing
-
-## IR extraction
-
-To rebuild the IR metadata CSV from the JCAMP files in `data/IR`, run:
-
-```bash
-python scripts/extract_ir.py --input-dir data/IR --output data/ir_metadata.csv
-```
-
+# How model was built
 ## Data scrapping
 * data scrapped from NIST database from the following repo
   * more details on where scrapped data in extract_jdx notebook
