@@ -223,3 +223,4 @@ __pycache__/
 #all data files should be in external sources ie: hugging face/kaggle
 data/
 *.csv
+smiles_cache.json
